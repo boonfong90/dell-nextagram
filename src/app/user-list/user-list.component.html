@@ -1,0 +1,10 @@
+<div id="container">
+    <div class="card" *ngFor="let user of users">
+      <a routerLink="/users/{{user.id}}/{{user.username}}">
+        <p (click)="onSubmit($event)" [id]="user.id">{{user.username}}</p>
+        <div>
+            <img [src]="user.profileImage" alt="" class="image">
+        </div> 
+      </a>
+    </div>
+  </div>

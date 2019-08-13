@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+#top-nav {
+    width: 100%;
+    height: 10vh;
+    background-color: grey;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .nav-button {
+    padding: 3px;
+    margin: 1px;
+    border-style: solid;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    font-size: 24px;
+    font-family: Consolas;
+  }
+
+#container {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    height: 85vh;
+  }
+  
+  .card {
+    background-color: lightgoldenrodyellow;
+    height: 250px;
+    width: 30%;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .card2 {
+    background-color: lightgoldenrodyellow;
+    height: 300px;
+    width: 30%;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
